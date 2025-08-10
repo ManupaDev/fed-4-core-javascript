@@ -93,6 +93,49 @@
 
 // Data Structures
 // - Array
+// const nums = [2, 3, 5, 7, 11];
+
+// for (let i = 0; i < nums.length; i++) {
+//     const element = nums[i];
+//     console.log(element);
+// }
+
+// for (const element of nums) {
+//     console.log(element);
+// }
+
+// console.log(nums);
+
+// const doubledNums = nums.map((element) => {
+//   console.log(element);
+//   return element * 2;
+// });
+
+// console.log(doubledNums);
+
 // - Object
+// const manupa = {
+//   name: "Manupa",
+//   age: 25,
+//   gender: "Male",
+//   occupation: "Software Engineer",
+//   hobbies: ["Reading", "Writing", "Coding"],
+//   address: {
+//     city: "Colombo",
+//     country: "Sri Lanka",
+//   },
+//   isMarried: false,
+
+//   greet: () => {
+//     console.log("Hello, I am " + manupa.name);
+//   }
+// };
+
+// manupa.greet();
 
 // DOM Manipulation
+const todoCreateButton = document.querySelector(".todo__create__button");
+
+todoCreateButton.addEventListener("click", () => {
+  console.log("YOU CLICKED THE BUTTON");
+});
